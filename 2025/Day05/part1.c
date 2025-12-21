@@ -47,5 +47,8 @@ int main(void) {
 
     printf("Part 1 answer: %ld\n", answer);
 
+    free(line);
+    fclose(fp);
+
     return 0;
 }
